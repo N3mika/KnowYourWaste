@@ -1,0 +1,23 @@
+body{
+    background-image:url("outputbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color:white;
+    font-family: "Raleway", sans-serif;
+
+}
+#head1{
+    background-color: white;
+    color:darkgreen;
+}
+a{
+    color:red;
+}
+a:active{
+    color:greenyellow;
+}
+a:hover{
+    background-color: white;
+    color:darkgreen;
+}

@@ -1,0 +1,93 @@
+body{
+    background-image:url("all-waste-rec.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color:white;
+    font-family: "Raleway", sans-serif;
+
+}
+h2{
+    text-align: center;
+    background-color: white;
+    color:darkgreen;
+}
+.img-preview {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    margin:0 auto;
+    margin-left:30%;   
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: darkgreen;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    margin:0 auto;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.upload-label:hover{
+    background: white;
+    color: darkgreen;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid darkgreen; 
+    border-radius: 50%;
+    
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin-left:43%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#btn-predict{
+    background-color:darkgreen;
+    color:white;
+    margin-top:2%;
+    height:50px;
+    width:200px;
+    margin-left: 40%;
+}
+#btn2{
+    font-weight: bold;
+    background-color:white;
+    color:darkgreen;
+    margin-top:2%;
+    height:50px;
+    width:300px;
+    margin-left: 35%;
+}
+#result{
+    background-color: white;
+    color: darkgreen;
+}
